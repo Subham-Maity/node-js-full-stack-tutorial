@@ -10,7 +10,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 
 | **Day** | **Chapter Name** | **Read on Website** | **Read on GitHub** |
 | --- | --- | --- | --- |
-| Day 1 | Introduction to Node js and the Course |  |  |
+| Day 1 | Introduction to Node js and the Course |[Here](https://codexam.vercel.app/docs/node/node1)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/01.%20Introduction%20to%20Node%20js%20and%20the%20Course)  |
 | Day 2 | Basic Concepts and Theory of Node js |  |  |
 | Day 3 | How to Install and Set Up Node js |  |  |
 | Day 4 | Writing Your First Node js Script |  |  |
