@@ -13,21 +13,21 @@
 
 
 
-    - To install Node.js using the installer, follow these steps:
-      - Visit the official Node.js website [here](https://nodejs.org/en/download/) and download the `.msi` file according to your system environment (32-bit or 64-bit).
-      - Run the Node.js setup wizard and click **Next**.
-      - Accept the terms in the License Agreement and click **Next**.
-      - Choose the destination folder and click **Next**.
-      - Select the features you want to install and click **Next**.
-      - Click **Install** to start the installation process.
-      - Click **Finish** when the installation is complete.
-    - To install Node.js using a package manager, follow these steps:
-      - Choose a package manager for your operating system from [this list](https://nodejs.dev/download/package-manager/).
-      - Follow the instructions on the package manager's website to install Node.js. For example, for Windows, you can use Chocolatey, Scoop, or Winget.
-      - > Note: Some package managers may require additional steps or commands to install Node.js. Refer to the documentation of the package manager for more details.
-    - To verify that Node.js is installed, open a terminal or command prompt and type `node -v`. This should display the version of Node.js that you have installed.
-    - To update Node.js, you can either download the latest installer from the Node.js website and run it, or use a package manager to update it. For example, for Windows, you can use Chocolatey, Scoop, or Winget to update Node.js.
-    - To run a Node.js program, you need to create a file with the `.js` extension and write some JavaScript code in it. For example, you can create a file called `hello.js` and write `console.log('Hello, world!')` in it. Then, open a terminal or command prompt and type `node hello.js`. This should print `Hello, world!` to the console.
+- To install Node.js using the installer, follow these steps:
+  - Visit the official Node.js website [here](https://nodejs.org/en/download/) and download the `.msi` file according to your system environment (32-bit or 64-bit).
+  - Run the Node.js setup wizard and click **Next**.
+  - Accept the terms in the License Agreement and click **Next**.
+  - Choose the destination folder and click **Next**.
+  - Select the features you want to install and click **Next**.
+  - Click **Install** to start the installation process.
+  - Click **Finish** when the installation is complete.
+- To install Node.js using a package manager, follow these steps:
+  - Choose a package manager for your operating system from [this list](https://nodejs.dev/download/package-manager/).
+  - Follow the instructions on the package manager's website to install Node.js. For example, for Windows, you can use Chocolatey, Scoop, or Winget.
+  - > Note: Some package managers may require additional steps or commands to install Node.js. Refer to the documentation of the package manager for more details.
+- To verify that Node.js is installed, open a terminal or command prompt and type `node -v`. This should display the version of Node.js that you have installed.
+- To update Node.js, you can either download the latest installer from the Node.js website and run it, or use a package manager to update it. For example, for Windows, you can use Chocolatey, Scoop, or Winget to update Node.js.
+- To run a Node.js program, you need to create a file with the `.js` extension and write some JavaScript code in it. For example, you can create a file called `hello.js` and write `console.log('Hello, world!')` in it. Then, open a terminal or command prompt and type `node hello.js`. This should print `Hello, world!` to the console.
 
 
 
