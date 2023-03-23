@@ -9,7 +9,7 @@
             </p>
 
 
- <h12 className ="font-bold text-2xl sm:text-4xl text-gray-400 align-left mt-8">Let's make a basic server..</h12>
+ <h12 >Let's make a basic server..</h12>
 
 
 1. Create a file named `server.js` in the root directory of your project.
@@ -75,7 +75,7 @@ http.createServer((req, res) => {
 - But remember you have to run the server again.
 
 
- <h12 className ="font-bold text-2xl sm:text-4xl text-gray-400 align-left mt-8">Let's break down the code .</h12>
+ <h12 >Let's break down the code .</h12>
 
 
 
@@ -112,7 +112,7 @@ node server.js
 > - You will get the same output as the previous one.
 
 
-    <h12 className ="font-bold text-2xl sm:text-4xl text-gray-400 align-left mt-8">Let's Understand.</h12>
+    <h12 >Let's Understand.</h12>
 
 
 Basically, arrow function is a short form of the function just use const `function_name = (parameter) => {function body}` instead of `function function_name(parameter) {function body}`. You can check this on official documentation of [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
