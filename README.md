@@ -16,7 +16,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 | Day 4 | Writing Your First Node js Script |[Here](https://codexam.vercel.app/docs/node/node4)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/04.%20Writing%20Your%20First%20Node%20js%20Script)  |
 | Day 5 | Node js Fundamentals and Features |[Here](https://codexam.vercel.app/docs/node/node5)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/05.%20Fundamentals%20and%20Features)  |
 | Day 6 | Using Core Modules in Node js |[Here](https://codexam.vercel.app/docs/node/node6)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/06.%20Modules)  |
-| Day 7 | Creating a Basic Server with Node js |  |  |
+| Day 7 | Creating a Basic Server with Node js |[Here](https://codexam.vercel.app/docs/node/node7)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/07.%20Create%20Basic%20Server)  |
 | Day 8 | Understanding and Using package.json in Node js |  |  |
 | Day 9 | A Small Challenge for You to Test Your Skills |  |  |
 | Day 10 | What is Nodemon and How to Use it in Node js |  |  |
