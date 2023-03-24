@@ -4,7 +4,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 
 ![ezgif-4-a6b90e63af](https://user-images.githubusercontent.com/97989643/224550089-f2541ade-c5c6-4afa-8538-51a8dda4e23b.gif)
 
-## Content List for *React* (2023) ▶️
+## Content List for *NodeJs* (2023) ▶️
 
 >  ### (Check out the website [here](https://codexam.vercel.app/docs/node))
 
@@ -18,7 +18,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 | Day 6 | Using Core Modules in Node js |[Here](https://codexam.vercel.app/docs/node/node6)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/06.%20Modules)  |
 | Day 7 | Creating a Basic Server with Node js |[Here](https://codexam.vercel.app/docs/node/node7)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/07.%20Create%20Basic%20Server)  |
 | Day 8 | Understanding and Using package.json in Node js | [Here](https://codexam.vercel.app/docs/node/node8)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/08.%20Package.json)  |
-| Day 9 | A Small Challenge for You to Test Your Skills |  |  |
+| Day 9 | A Small Challenge for You to Test Your Skills | [Here](https://codexam.vercel.app/docs/node/node9)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/09.%20Challenge)  |
 | Day 10 | What is Nodemon and How to Use it in Node js |  |  |
 | Day 11 |Building a Simple API with Node js |  |  |
 | Day 12 | Taking Input from the Command Line |  |  |
