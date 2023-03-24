@@ -20,7 +20,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 | Day 8 | Understanding and Using package.json in Node js | [Here](https://codexam.vercel.app/docs/node/node8)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/08.%20Package.json)  |
 | Day 9 | A Small Challenge for You to Test Your Skills | [Here](https://codexam.vercel.app/docs/node/node9)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/09.%20Challenge)  |
 | Day 10 | What is Nodemon and How to Use it in Node js | [Here](https://codexam.vercel.app/docs/node/node10)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/10.%20Nodemon%20Package)  |
-| Day 11 |Building a Simple API with Node js |  |  |
+| Day 11 |Building a Simple API with Node js | [Here](https://codexam.vercel.app/docs/node/node11)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/11.%20Basic%20API%20Create)  |
 | Day 12 | Taking Input from the Command Line |  |  |
 | Day 13 | Listing Files with the File System Module |  |  |
 | Day 14 | Performing CRUD Operations with the File System Module |  |  |
