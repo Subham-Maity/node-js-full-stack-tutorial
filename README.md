@@ -4,7 +4,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 
 ![ezgif-4-a6b90e63af](https://user-images.githubusercontent.com/97989643/224550089-f2541ade-c5c6-4afa-8538-51a8dda4e23b.gif)
 
-## Content List for *React* (2023) ▶️
+## Content List for *NodeJs* (2023) ▶️
 
 >  ### (Check out the website [here](https://codexam.vercel.app/docs/node))
 
