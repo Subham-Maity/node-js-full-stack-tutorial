@@ -23,7 +23,7 @@ This is a comprehensive tutorial on Node.js, the popular JavaScript runtime buil
 | Day 11 |Building a Simple API with Node js (**writeHead & JSON.stringify**) | [Here](https://codexam.vercel.app/docs/node/node11)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/11.%20Basic%20API%20Create)  |
 | Day 12 | Taking Input from the Command Line (**process.argv ,writeFileSync ,UnlinkSync ,if-else ,create-file ,remove-file**) | [Here](https://codexam.vercel.app/docs/node/node12)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/12.%20Taking%20Command%20Line%20Input)  |
 | Day 13 | Listing Files with the File System Module (**Path module ,__dirPath ,For Loop,template literals ,fs.readdir ,foreach**) | [Here](https://codexam.vercel.app/docs/node/node13)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/13.%20Listing%20Files%20with%20the%20File%20System%20Module)  |
-| Day 14 | Performing CRUD Operations with the File System Module |  |  |
+| Day 14 | Performing CRUD Operations with the File System Module | [Here](https://codexam.vercel.app/docs/node/node14)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/14.%20CRUD%20Operations)  |
 | Day 15 | Working with Asynchronous Node js |  |  |
 | Day 16 | Handling Asynchronous Data in Node js |  |  |
 | Day 17 | How Node js Works Behind the Scenes |  |  |
