@@ -19,7 +19,7 @@
    - Update: Update an existing record in a database.
    - Delete: Delete an existing record from a database.
 
-    </p>
+   
 
 ### 📝 Create
 
