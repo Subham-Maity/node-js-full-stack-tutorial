@@ -12,16 +12,16 @@ Learn Node.js in less than 2 months with just 15 minutes of daily practice! 💪
 
 >  ### (Check out the website [here](https://codexam.vercel.app/docs/node))
 
-| **Day** | **Chapter Name** | **Read on Website** | **Read on GitHub** |
-| --- | --- | --- | --- |
-| Day 1 | Introduction to Node js and the Course |[Here](https://codexam.vercel.app/docs/node/node1)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/01.%20Introduction%20to%20Node%20js%20and%20the%20Course)  |
-| Day 2 | Basic Concepts and Theory of Node js |[Here](https://codexam.vercel.app/docs/node/node2)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/02.%20Basic%20Concepts%20and%20Theory%20of%20Node%20js)  |
-| Day 3 | How to Install and Set Up Node js |[Here](https://codexam.vercel.app/docs/node/node3)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/03.%20Install%20and%20Set%20Up%20Node%20js)  |
-| Day 4 | Writing Your First Node js Script |[Here](https://codexam.vercel.app/docs/node/node4)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/04.%20Writing%20Your%20First%20Node%20js%20Script)  |
-| Day 5 | Node js Fundamentals and Features |[Here](https://codexam.vercel.app/docs/node/node5)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/05.%20Fundamentals%20and%20Features)  |
-| Day 6 | Using Core Modules in Node js (**fs-filesystem**) |[Here](https://codexam.vercel.app/docs/node/node6)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/06.%20Modules)  |
-| Day 7 | Creating a Basic Server in Node js (**http ,createServer ,res ,req ,write ,end ,listen**)  | [Here](https://codexam.vercel.app/docs/node/node7)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/07.%20Create%20Basic%20Server)  |
-| Day 8 | Understanding and Using package.json in Node js | [Here](https://codexam.vercel.app/docs/node/node8)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/08.%20Package.json)  |
+| **Day** | **Chapter Name** |*Topic*|*Learn About*| **Read on Website** | **Read on GitHub** |
+| --- | --- | --- | --- | --- | --- |
+| Day 1 | Introduction to Node js and the Course | | |[Here](https://codexam.vercel.app/docs/node/node1)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/01.%20Introduction%20to%20Node%20js%20and%20the%20Course)  |
+| Day 2 | Basic Concepts and Theory of Node js | |[Here](https://codexam.vercel.app/docs/node/node2)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/02.%20Basic%20Concepts%20and%20Theory%20of%20Node%20js)  |
+| Day 3 | How to Install and Set Up Node js | |[Here](https://codexam.vercel.app/docs/node/node3)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/03.%20Install%20and%20Set%20Up%20Node%20js)  |
+| Day 4 | Writing Your First Node js Script | |[Here](https://codexam.vercel.app/docs/node/node4)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/04.%20Writing%20Your%20First%20Node%20js%20Script)  |
+| Day 5 | Node js Fundamentals and Features | |[Here](https://codexam.vercel.app/docs/node/node5)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/05.%20Fundamentals%20and%20Features)  |
+| Day 6 | Using Core Modules in Node js (**fs-filesystem**) | |[Here](https://codexam.vercel.app/docs/node/node6)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/06.%20Modules)  |
+| Day 7 | Creating a Basic Server in Node js (**http ,createServer ,res ,req ,write ,end ,listen**) | | [Here](https://codexam.vercel.app/docs/node/node7)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/07.%20Create%20Basic%20Server)  |
+| Day 8 | Understanding and Using package.json in Node js | | [Here](https://codexam.vercel.app/docs/node/node8)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/08.%20Package.json)  |
 | Day 9 | A Small Challenge for You to Test Your Skills | [Here](https://codexam.vercel.app/docs/node/node9)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/09.%20Challenge)  |
 | Day 10 | What is Nodemon and How to Use it in Node js | [Here](https://codexam.vercel.app/docs/node/node10)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/10.%20Nodemon%20Package)  |
 | Day 11 |Building a Simple API with Node js (**writeHead & JSON.stringify**) | [Here](https://codexam.vercel.app/docs/node/node11)  | [Here](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/11.%20Basic%20API%20Create)  |
