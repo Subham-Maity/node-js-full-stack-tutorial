@@ -4,7 +4,7 @@
 
 Learn Node.js in less than 2 months with just 15 minutes of daily practice! 💪 This tutorial is perfect for beginners who want to become Node.js masters. You'll learn everything from the basics of Node.js to advanced topics like **asynchronous programming**, **modules**, **package management**, **web frameworks**, and more. Along the way, you'll build several projects including a **command-line interface**, a **RESTful API**, and a **real-time chat app**. If you have any doubts or questions, feel free to create an issue or comment in the feedback section. By the end of this tutorial, you'll have the skills and confidence to create your own server-side applications using Node.js. 🎉🎉🎉
 
-## Also You Can Read This on 
+## Also You Can Read This On 📃
 - [**medium.com**](https://medium.com/@maitysubham4041)
 - [**hashnode**](https://codexam.hashnode.dev)
 - [**dev.to**](https://dev.to/codexam)
