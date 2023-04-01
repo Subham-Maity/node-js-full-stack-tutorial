@@ -9,7 +9,7 @@
     />
 </p>
 
-> In this article, for sure you will not get many boring theory but trust me day by day you will fall in love with Node.js and you will be able to understand the theory behind it.
+> In this article, for sure you will get many boring theory but trust me day by day you will fall in love with Node.js and you will be able to understand the theory behind it.
 
 
 - **Node is not a Language.**
