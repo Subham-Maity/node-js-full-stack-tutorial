@@ -30,7 +30,7 @@ Learn Node.js in less than 2 months with just 15 minutes of daily practice! 💪
 | Day 14 | Performing CRUD Operations with the File System Module |What is CRUD,Create,Read,Update, Rename,Delete, what is buffer| (**writeFileSync ,readFile ,appendFile ,rename ,unlinkSync ,buffer**) | [**Here**](https://codexam.vercel.app/docs/node/node14)  | [**Here**](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/14.%20CRUD%20Operations)  |
 | Day 15 | Working with Asynchronous Node js |What is Synchronous & Synchronous with example ,coding example(basic) |setTimeout  | [**Here**](https://codexam.vercel.app/docs/node/node15)  | [**Here**](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/15.%20Synchronous%20%26%20Asynchronous)  |
 | Day 16 | Handling Asynchronous Data in Node js | Promise with detailed Explanation  | promise() ,then() | [**Here**](https://codexam.vercel.app/docs/node/node15)  | [**Here**](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/16.%20Handle%20Asynchronous%20Data)  |
-| Day 17 | How Node js Works Behind the Scenes | | |  |  |  |  |
+| Day 17 | How Node js Works Behind the Scenes | Understand the Event Loop, Clearing The Confusion , Explain with Example and step by step process |Even Loop,Node APIs,callback queue,call stack,LIFO,FIFO, Dequeue, Enqueue   | [**Here**](https://codexam.vercel.app/docs/node/node16)  | [**Here**](https://github.com/Subham-Maity/node-js-full-stack-tutorial/tree/main/17.%20Node%20js%20Works%20with%20Event%20Loop)  |
 | Day 18 | Introduction to Express js Framework | | |  |  |  |  |
 | Day 19 | Routing with Express.js | | |  |  |  |  |
 | Day 20 | Rendering HTML Pages with Node js | | |  |  |  |  |
