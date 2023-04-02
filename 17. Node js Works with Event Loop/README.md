@@ -162,6 +162,45 @@ But the output will be:
 
 ![12](https://user-images.githubusercontent.com/97989643/229258291-b114fe41-e398-4e78-86e2-b83da7976fe5.png)
 
+## ⭐ More Detailed Explanation
+
+<div className= "mt-3"></div>
+<div className="cardTexture5">
+<h11 className="textStyle1 " >
+
+
+Sometimes we have to scrape data from a slow website or wait for a long time to get the result of a database query. But we don't want to waste our time and stop other tasks from running because of that. Thanks to Libuv, a C++ library that handles the event loop and async tasks, Node.js can keep running other operations while working on tasks like database queries. Libuv also takes care of things like network requests, DNS resolution, file system operations, data encryption, etc.
+
+How does Node.js handle tasks like database queries behind the scenes? Let's find out by looking at this code snippet step by step.
+
+[![Code sample to showcase the event loop](https://res.cloudinary.com/practicaldev/image/fetch/s--_RAmRR48--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j7r4s8bxdbv73bv93vit.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--_RAmRR48--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j7r4s8bxdbv73bv93vit.png)
+Imagine you’re baking a cake. You have a recipe that tells you what to do step by step. The recipe is like the call stack - it keeps track of where you are in the process. When you start, the first step is added to the call stack. Once you complete that step, it’s removed from the call stack and the next step is added.
+
+> - The V8 JavaScript engine manages a call stack which tracks which part of our program is running. Whenever we invoke a JavaScript function, it gets pushed to the call stack. Once the function reaches its end or a `return` statement, it is popped off the stack.
+
+For example,
+1. let's say we have a line of code that reads `console.log('Starting Node.js')`. This line of code gets added to the call stack and prints `Starting Node.js` to the console. Once it reaches the end of the `log` function, it is removed from the call stack.
+
+[![Function invocation on Node.js call stack](https://res.cloudinary.com/practicaldev/image/fetch/s--XIICQ_e4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2ja8tymo646or3emo07.gif)](https://res.cloudinary.com/practicaldev/image/fetch/s--XIICQ_e4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2ja8tymo646or3emo07.gif)
+
+2. The following line of code is a database query. These tasks are immediately popped off because they may take a long time. They are passed to Libuv which handles them asynchronously in the background. At the same time, Node.js can keep running other code without blocking its single thread.
+
+> - In the future, Node.js will know what to do with the query because we have associated a callback function with instructions to handle the task result or error.
+
+> - In our case, it is a simple `console.log`, but it could be complex business logic or data processing in production applications.
+
+[![Libuv handles I/O ops](https://res.cloudinary.com/practicaldev/image/fetch/s--7VqJsN97--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l2vxqbfq6r7e55up4bnz.gif)](https://res.cloudinary.com/practicaldev/image/fetch/s--7VqJsN97--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l2vxqbfq6r7e55up4bnz.gif)
+
+3. While Libuv handles the query in the background, our JavaScript is not blocked and can continue with `console.log(”Before query result”)`.
+
+[![Processing I/O while Node.js runs our code](https://res.cloudinary.com/practicaldev/image/fetch/s--u2guSyHC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5dnrdqoql3sp9rw0gt1x.gif)](https://res.cloudinary.com/practicaldev/image/fetch/s--u2guSyHC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5dnrdqoql3sp9rw0gt1x.gif)
+
+4. When the query is done, its callback is pushed to the I/O Event Queue to be run shortly. The event loop connects the queue with the call stack. It checks if the latter is empty and moves the first queue item for execution.
+
+[![The event loop checks for an empty call stack](https://res.cloudinary.com/practicaldev/image/fetch/s--Dg8fq92f--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pp9n3grfwgcaqgi30t4e.gif)](https://res.cloudinary.com/practicaldev/image/fetch/s--Dg8fq92f--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pp9n3grfwgcaqgi30t4e.gif)
+
+
+
 
 
 
