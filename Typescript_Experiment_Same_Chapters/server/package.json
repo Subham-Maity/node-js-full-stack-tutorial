@@ -16,7 +16,8 @@
     "compile": "npx tsc",
     "deploy": "nodemon src/server.ts",
     "day6": "nodemon --exec ts-node day6.ts",
-    "day7": "nodemon --exec ts-node day7.ts"
+    "day7": "nodemon --exec ts-node day7.ts",
+    "day11" : "nodemon --exec ts-node day11.ts"
   },
   "keywords": [],
   "dependencies": {
